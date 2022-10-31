@@ -1,0 +1,100 @@
+.contact {
+    margin: 3rem auto;
+    width: 95%;
+    max-width: 44rem;
+    border-radius: 6px;
+    border: 5px solid #fddf62;
+    background-color: WHITE;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .control {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #ff6863;
+  }
+  
+  .control label {
+    display: block;
+    color: #ff6863;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .control input,
+  .contact textarea,
+  .contact select {
+    font: inherit;
+  
+    color: black;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  .actions {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .actions button {
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    background-color: #00b4d8;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem 2.5rem;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    background: #0dafbf;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .actions button:hover {
+    background-color: #ff6863;
+    border-color: #ff6863;
+  }
+  
+  .actions .toggle {
+    margin-top: 1rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 0.15rem 1.5rem;
+  }
+  
+  .actions .toggle:hover {
+    background-color: transparent;
+    color: #ff6863;
+  }
+  
+  .error-text {
+    color: #b40e0e;
+  }
+  
+  .invalid input {
+    border: 1px solid #b40e0e;
+    background-color: #fddddd;
+    color: black;
+  }
+  
+  .invalid input:focus {
+    border-color: #ff8800;
+    background-color: #fbe8d2;
+    color: black;
+  }
+  
